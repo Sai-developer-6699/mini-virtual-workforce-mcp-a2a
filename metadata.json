@@ -1,0 +1,6 @@
+{
+  "name": "Agent Blueprint: Manga Visual Guide to Protocols",
+  "description": "Interactive manga-style architectural sketch diagrams explaining AI Agents, MCP, A2A, UCP, AP2, and A2UI through the construction metaphor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+.font-sketch {
+  font-family: 'Architects Daughter', cursive, sans-serif;
+}
+
+.font-comic {
+  font-family: 'Bangers', cursive, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Manga paper texture - warm draftsman paper */
+.paper-texture {
+  background-color: #fbf9f4;
+  background-image: 
+    radial-gradient(#ded7ca 0.75px, transparent 0.75px),
+    radial-gradient(#ded7ca 0.75px, #fbf9f4 0.75px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Architectural blueprint texture */
+.blueprint-texture {
+  background-color: #0c1626;
+  background-image: 
+    linear-gradient(rgba(56, 189, 248, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Manga comic book drop shadows and ink borders */
+.manga-panel {
+  box-shadow: 4px 4px 0px 0px rgba(24, 24, 27, 0.95);
+}
+
+.manga-panel-sm {
+  box-shadow: 2px 2px 0px 0px rgba(24, 24, 27, 0.95);
+}
+
+.manga-panel-lg {
+  box-shadow: 6px 6px 0px 0px rgba(24, 24, 27, 0.95);
+}
+
+.manga-panel-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px rgba(24, 24, 27, 0.95);
+}
+
+.sketch-border {
+  border: 2px solid #18181b;
+}
+
+.sketch-border-thick {
+  border: 3.5px solid #18181b;
+}
+
+.screentone-dot {
+  background-image: radial-gradient(#18181b 18%, transparent 19%);
+  background-size: 6px 6px;
+}
+
+/* Hand-drawn underline */
+.hand-drawn-line {
+  background-image: repeating-linear-gradient(45deg, #18181b, #18181b 10px, transparent 10px, transparent 20px);
+}
